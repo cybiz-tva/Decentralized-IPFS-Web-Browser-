@@ -2,8 +2,8 @@
 
 1. **[Goal #1](#p2pdecentralized-protocol):** We need a **P2P/decentralized** solution for transferring (markdown) files across the network, **without** a client-server topology. No single-point-of-failure. And no easy way to censorship your site or other sites.
    - *Conclusion:* [IPFS](https://ipfs.io/)
-2. **[Goal #2](#dns):** Despite IPFS, we need a (better) name service solution in a decentralized manner. IPNS is not good enough.
-   - *Conclusion:* Undecided
+2. **[Goal #2](#dns):** Despite IPFS, we need a (better) name service solution in a decentralized manner. Which allows users to easily access the sites using unqiue string values
+   - *Conclusion:* IPFS String Conversion
 3. **[Goal #3](#gui-libraries):** We need to be able to draw text on the screen as fast and efficient as possible by using some existing **GUI Library**. Skipping the HTML parser step, meaning: `Markdown` -> `screen` instead of: `Markdown` -> `HTML` / `CSS` -> `screen`. Which should give us *full control* about the rendering and drawing sequences.
    - *Conclusion:* GTK + Gtk::TextView
 
