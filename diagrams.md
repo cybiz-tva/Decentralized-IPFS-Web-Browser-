@@ -33,4 +33,4 @@ Most GUI libraries do have a text layout/rendering engine built-in.
 -->[Text visable on Screen] (*)
 ```
 
-*AST* = Abstract Syntax Tree
+*AST* = Abstract Syntax Tree 
