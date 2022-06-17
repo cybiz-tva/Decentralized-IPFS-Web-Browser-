@@ -3,15 +3,9 @@
 List of sequence/UML diagrams for design and/or research reasons. Could may be used in a whitepaper if still relevant.
 
 ## High-level Design
+![high level diagram](https://user-images.githubusercontent.com/49467492/174215538-c0e7b786-aece-4769-aae7-944ee09f6afc.png)
 
-```plantuml
-(*) --> "Fetch source document from a P2P network"
---> "Parse markdown document"
--->[AST model output] "Convert AST to X & Y coords with text/drawing items"
---> "Add items to a drawing scene"
---> "Render the scene on screen"
--->[User sees the output on screen] (*)
-```
+ 
 
 *P2P* = Peer-to-Peer (decentralized networks)
 
@@ -25,12 +19,8 @@ Most GUI libraries do have a text layout/rendering engine built-in.
 
 ### Drawing Activity Diagram
 
-```plantuml
-(*) --> "Get file online /\nRead from disk"
--->[Document in memory] "Parse document"
--->[AST model output] "Convert AST to Text/Pango Markup"
--->[Ready for draw] "Add text to TextView buffer"
--->[Text visable on Screen] (*)
-```
+![drawing acitivity](https://user-images.githubusercontent.com/49467492/174215553-22ca22b2-451e-4555-b525-41825ebb2fa4.png)
+
+ 
 
 *AST* = Abstract Syntax Tree 
